@@ -2,7 +2,7 @@
 
 While being a functional FLV to MP3 converter, flv2mp3 is not intended to be used as an actual converter. The sole purpose of this module is to show what else Node.js can be used for, apart from developing websites.
 
-**Note**: The current version of flv2mp3 is not tested under Windows, and will mostly liked not work.
+**Note**: The current version of flv2mp3 is not tested under Windows, and will mostly liked not work. The code is intentionally left minimal, with no comments and minimal error checking, to make it non-distracting for beginners. 
 
 ## Installation
 
