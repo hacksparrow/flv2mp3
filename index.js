@@ -5,7 +5,7 @@ var program = require('commander');
 var exec = require('child_process').exec;
 
 program
-  .version('0.0.1')
+  .version('0.0.2')
   .option('-f, --file <path>', 'FLV file path')
   .option('-o, --out [path]', 'Output directory')
   .parse(process.argv);
@@ -23,7 +23,7 @@ function convert(source_file, destination_dir) {
 			in_destination_dir = true;
 			process.chdir(destination_dir);			
 		}
-		catch (err) { console.log(err); }
+		catch (err) { throw err; }
 	}
 	var destination_file = source_file.split('/').slice(-1)[0].replace('.flv', '.mp3');
 	var ffmpeg = 'ffmpeg -y -i '+ source_file +' -f mp3 -vn -acodec copy ' + destination_file;

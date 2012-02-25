@@ -1,6 +1,6 @@
 {
 	"name": "flv2mp3",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Node.js module to convert FLV to MP3 files",
 	"preferGlobal": "true",
 	"main": "index.js",
