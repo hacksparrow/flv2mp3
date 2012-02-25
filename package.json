@@ -1,0 +1,16 @@
+{
+	"name": "flv2mp3",
+	"version": "0.0.1",
+	"preferGlobal": "true",
+	"description": "Node.js exercise module to convert FLV to MP3 files",
+	"main": "index.js",
+	"author": "Hack Sparrow <captain@hacksparrow.com>",
+	"keywords": ["mp3", "flv", "converter"],
+	"repository" : {
+		"type": "git",
+		"url": "https://hacksparrow@github.com/hacksparrow/flv2mp3.git"
+	}
+	"dependencies": {
+		"commander": "0.5.2"
+	}
+}
