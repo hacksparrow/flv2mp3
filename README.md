@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/hacksparrow/flv2mp3.png)](http://travis-ci.org/hacksparrow/flv2mp3)
 # flv2mp3
 
 While being a functional FLV to MP3 converter, flv2mp3 is not intended to be used as an actual converter. The sole purpose of this module is to show what else Node.js can be used for, apart from developing websites.
